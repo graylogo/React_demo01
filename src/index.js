@@ -5,9 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
+    // 渲染组件到页面
+    // react new出了类的实例，并且调用了原型上的render()方法
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+//   render接收两个参数   第一个是html标签   第二个是页面的dom
   document.getElementById('root')
 );
 
