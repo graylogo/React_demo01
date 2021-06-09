@@ -16,7 +16,8 @@ export default class First extends Component {
     }
     // render必须写  而且需要return
     render() {
-        const arr = [1,2,3]
+        const arr = ["F",'i','r','s','t']
+        const arr1 = [1,2]
         // console.log(this);   this指向该实例对象（First）
         // render 放在该类（First）的原型对象（__proto__）上 ，供实例使用
         return (
@@ -24,7 +25,7 @@ export default class First extends Component {
             <div style={{border: '1px solid red'}}>
                 {arr}
                 <ul>
-                   {arr.map((i,index)=><li key={index}>{i}</li>)}
+                   {arr1.map((i,index)=><li key={index}>{i}</li>)}
                 </ul>
                 {/*  在React中的事件被重写为驼峰式*/}
                 <h2 onClick={this.changeWeather}>今天天气很{this.state.isHot?"炎热":'凉爽'}</h2>

@@ -1,8 +1,6 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import First from './view/first'
-import Second from './view/second'
-
+import Home from './components/Home'
 function App() {
   return (
     <div className="App">
@@ -11,8 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p> */}
-        <First/>
-        <Second/>
+       <Home/>
       </header>
     </div>
   );
