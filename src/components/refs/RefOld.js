@@ -35,7 +35,7 @@ export default class RefOld extends Component {
     }
     render() {
         return (
-            <div>
+            <div style={{border: '1px solid #46f342'}}>
                 {/* // 展示字符串形式的ref，比较老，不推荐  已经被弃用 */}
                 {/* <input ref="input1" type="text" placeholder="点击按钮提示数据"/>&nbsp;
 				<button onClick={this.showData}>点我提示左侧的数据</button>&nbsp;
