@@ -7,6 +7,7 @@ import GetByNo from './GetValue/GetByNo'
 import GetByYes from './GetValue/GetByYes'
 import FuncReturnFunc from './GetValue/FuncReturnFunc'
 import TodoList from './TdoList'
+import Proxy from './Proxy'
 export default class Home extends Component {
     render() {
         return (
@@ -24,6 +25,7 @@ export default class Home extends Component {
                {/* todoList的页面 */}
                <div>
                    <TodoList/>
+                   <Proxy/>
                </div>
             </div>
         )
