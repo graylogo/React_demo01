@@ -1,9 +1,17 @@
 .todo-list{
     margin-top: 10px;
     width: 60vw;
-    height: 40vh;
-    border: 1px solid red;
+    height: 30vh;
+    /* border: 1px solid gray; */
+    border-radius: 5px;
     background-color: #ddd;
     color: black;
     font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 15px 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 4px 4px #ccc;
 }

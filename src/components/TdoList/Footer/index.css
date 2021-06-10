@@ -1,0 +1,23 @@
+.todo_footer{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+    font-size: 22px;
+}
+/* .todo_footer span{
+    flex-grow: 1;
+} */
+
+.todo_footer button{
+    border: none;
+    background-color:lightcoral;
+    color: white;
+    cursor: pointer;
+}
+.todo_footer button:hover{
+    background-color:lightpink;
+    color: white;
+}

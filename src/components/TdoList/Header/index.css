@@ -1,0 +1,14 @@
+.todo_header{
+    width: 100%;
+}
+.todo_header input{
+    width: 90%;
+    line-height: 60px;
+    padding: 0 20px;
+    font-size: 26px;
+    outline: none;
+    border-radius: 5px;
+}
+.todo_header input:focus{
+    outline: 1px solid skyblue;
+}
