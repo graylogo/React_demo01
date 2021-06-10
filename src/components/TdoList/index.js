@@ -10,7 +10,7 @@ export default class TodoList extends Component {
         todoList:[
             {
                 id: '123',
-                todo: '逛超市',
+                todo: '超市👻',
                 check: false
             },
             {
