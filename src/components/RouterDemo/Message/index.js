@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import News from './News'
 import ConnectMe from './ConnectMe'
-import { NavLink, Redirect, Route , Switch } from 'react-router-dom'
+import { NavLink, Route , Switch } from 'react-router-dom'
 
 export default class Message extends Component {
     render() {
@@ -13,7 +13,7 @@ export default class Message extends Component {
                 <Switch>
                     <Route path='/message/connect' component={ConnectMe}/>
                     <Route path='/message/news/:id' component={News}/>
-                    <Redirect to='/message/connect'/>
+                    {/* <Redirect to='/message/connect'/> */}
                 </Switch>
             </div>
         )

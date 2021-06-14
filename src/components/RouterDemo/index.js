@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {NavLink,Redirect,Route, Switch} from 'react-router-dom'
+import {NavLink,Route, Switch} from 'react-router-dom'
 import './index.css'
 
 import Title from './Title'
@@ -20,7 +20,7 @@ export default class RouterDemo extends Component {
                 <Route path='/about' component={About}/>
                 <Route path='/message' component={Message}/>
                 {/* 路由重定向 */}
-                <Redirect to='/message'/>
+                {/* <Redirect to='/message'/> */}
                 </Switch>
             </div>
         )
