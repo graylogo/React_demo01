@@ -1,0 +1,13 @@
+.router-demo{
+    border: 1px solid lightpink;
+    color: white;
+}
+.router-demo a{
+    color: greenyellow;
+}
+.router-demo .active{
+    color: lightsalmon;
+}
+.router-demo a:hover{
+    color: green;
+}

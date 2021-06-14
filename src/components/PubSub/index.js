@@ -13,9 +13,9 @@ export default class PubSub extends Component {
     }
     componentDidMount(){
         // 连续的解构赋值
-        const {obj:{com:{id}}} = this.state
-        const {obj:{com:{id:renameId}}} = this.state
-        console.log(id,renameId);
+        // const {obj:{com:{id}}} = this.state
+        // const {obj:{com:{id:renameId}}} = this.state
+        // console.log(id,renameId);
     }
     render() {
         return (

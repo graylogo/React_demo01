@@ -1,3 +1,4 @@
+// NOTE 把后端接口移动到本项目，使用同一个命令启动（有个插件）
 const proxy = require('http-proxy-middleware')
   module.exports = function(app) {
     app.use(

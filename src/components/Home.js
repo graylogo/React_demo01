@@ -9,6 +9,7 @@ import FuncReturnFunc from './GetValue/FuncReturnFunc'
 import TodoList from './TdoList'
 import Proxy from './Proxy'
 import PubSub from './PubSub'
+import RouterDemo from './RouterDemo'
 export default class Home extends Component {
     render() {
         return (
@@ -28,6 +29,7 @@ export default class Home extends Component {
                <div>
                    <TodoList/>
                    <PubSub/>
+                   <RouterDemo/>
                </div>
             </div>
         )
